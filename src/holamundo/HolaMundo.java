@@ -9,14 +9,17 @@ package holamundo;
  * @author Ulises Jacob CR
  */
 public class HolaMundo {
-    
+    void hola(){
+        System.out.println("Prueba de repositorio");
+    }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here}
-        System.out.println("Prueba de repositorio");
-        System.exit(0);
+        HolaMundo HolaMundo1;
+        HolaMundo1 = new HolaMundo();
+        HolaMundo1.hola();
     }
     
 }
